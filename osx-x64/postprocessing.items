@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="uno-app.app/Contents/MacOS/uno-app">
+      <BCSymbolMapName>uno-app.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>uno-app.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/Debug/net6.0-macos/osx-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>uno-app.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/morten/fuse-open/uno/src/runtime/mac</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
